@@ -1,0 +1,21 @@
+.header {
+   margin: 0 auto;
+   background: url(/src/assets/hero.svg) no-repeat center top / cover;
+   width: 1920px;
+   height: 1080px;
+   .container {
+      align-items: center;
+      .nav-menu {
+         display: flex;
+         justify-content: space-between;
+         padding-top: 20px;
+         align-items: center;
+      }
+   }
+}
+.nav {
+   ul {
+      display: flex;
+      gap: 40px;
+   }
+}

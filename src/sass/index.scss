@@ -1,0 +1,10 @@
+@import 'reset.scss';
+@import 'font.scss';
+@import 'src/header/sass/header.scss';
+@import 'src/section/sass/section.scss';
+
+.container {
+   margin: 0 auto;
+   max-width: 1920px;
+   padding: 0px 320px 0px 320px;
+}
