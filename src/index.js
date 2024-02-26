@@ -28,5 +28,3 @@ instagramicon.src = instagram;
 
 const facebookicon = document.getElementById('facebook');
 facebookicon.src = facebook;
-
-document.querySelector('#text').c;
