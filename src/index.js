@@ -8,36 +8,46 @@ import twitter from './assets/twitter-square logo.svg';
 import vk from './assets/vk logo.svg';
 import youtube from './assets/youtube logo.svg';
 
-import chinese from './assets/Rectangle61.svg';
-import motor from './assets/Rectangle61.svg';
-import big from './assets/Rectangle63.svg';
+import chinese from './assets/Rectangle62.svg';
+import motor from './assets/Rectangle63.svg';
+import big from './assets/Rectangle61.svg';
+
+import share from './assets/share.svg';
+
+import consoles from './assets/consoles.svg';
 
 const logoImage = document.getElementById('headerlogo');
 logoImage.src = headerLogo;
 
-// const youtubeicon = document.getElementById('youtube');
-// youtubeicon.src = youtube;
+const youtubeicon = document.getElementById('youtube');
+youtubeicon.src = youtube;
 
-// const vkicon = document.getElementById('vk');
-// vkicon.src = vk;
+const vkicon = document.getElementById('vk');
+vkicon.src = vk;
 
-// const twittericon = document.getElementById('twitter');
-// twittericon.src = twitter;
+const twittericon = document.getElementById('twitter');
+twittericon.src = twitter;
 
-// const twitchicon = document.getElementById('twitch');
-// twitchicon.src = twitch;
+const twitchicon = document.getElementById('twitch');
+twitchicon.src = twitch;
 
-// const instagramicon = document.getElementById('instagram');
-// instagramicon.src = instagram;
+const instagramicon = document.getElementById('instagram');
+instagramicon.src = instagram;
 
-// const facebookicon = document.getElementById('facebook');
-// facebookicon.src = facebook;
+const facebookicon = document.getElementById('facebook');
+facebookicon.src = facebook;
 
-// const chineseicon = document.getElementById('chinesecity');
-// chineseicon.src = chinese;
+const chineseicon = document.getElementById('chinesecity');
+chineseicon.src = chinese;
 
-// const motorcycleicon = document.getElementById('motorcyrcle');
-// motorcycleicon.src = motor;
+const motorcycleicon = document.getElementById('motorcyrcle');
+motorcycleicon.src = motor;
 
-// const bigcityicon = document.getElementById('bigcity');
-// bigcityicon.src = big;
+const bigcityicon = document.getElementById('bigcity');
+bigcityicon.src = big;
+
+const shareicon = document.getElementById('share');
+shareicon.src = share;
+
+const consolesicon = document.getElementById('consoles');
+consolesicon.src = consoles;
