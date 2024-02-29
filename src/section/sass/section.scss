@@ -1,4 +1,4 @@
-.about {
+.section-first {
    .container {
       padding-top: 70px;
       padding-bottom: 70px;
@@ -50,19 +50,18 @@
    }
 }
 
-.giveaway {
+.section-second {
    background: black;
    color: white;
    padding-bottom: 70px;
    padding-top: 70px;
    .pte-about {
       p {
-         font-family: Roboto;
          font-size: 18px;
          font-weight: 400;
          line-height: 34px;
          letter-spacing: 0%;
-         color: grey;
+         color: white;
          text-align: left;
          max-width: 952px;
          span {
@@ -117,16 +116,17 @@
       }
       .input-file-btn {
          color: rgb(255, 255, 255);
-         font-family: Roboto;
+         font-family: Archangelsk;
          font-size: 18px;
          font-weight: 300;
          line-height: 21px;
          letter-spacing: 0%;
          text-align: left;
+
          text-decoration-line: underline;
       }
       .input-file-text {
-         font-family: Roboto;
+         font-family: Archangelsk;
          padding: 0 10px;
          line-height: 40px;
          display: inline-block;
@@ -138,6 +138,7 @@
          opacity: 0;
          display: block;
          width: 0;
+
          height: 0;
       }
       input[type='submit'] {
@@ -153,29 +154,216 @@
          width: 192px;
          height: 59px;
          margin-top: 35px;
+         font-family: Archangelsk;
       }
       input[type='checkbox'] {
          width: 14px;
          height: 14px;
       }
+      input[type='text'] {
+         font-family: Archangelsk;
+      }
+      input[type='email'] {
+         font-family: Archangelsk;
+      }
       .border {
          text-align: center;
          width: 186px;
       }
-      .consoles {
-         border: 1px dashed rgb(119, 119, 119);
-      }
       .checkbox {
          display: flex;
          align-items: center;
-         gap: 24px;
+         gap: 10px;
          color: rgb(255, 255, 255);
-         font-family: Roboto;
+         font-family: Archangelsk;
          font-size: 12px;
          font-weight: 300;
          line-height: 14px;
          letter-spacing: 0%;
+      }
+   }
+}
+
+.section-third {
+   img:first-child {
+      width: 624px;
+      height: 424px;
+   }
+   img:last-child {
+      width: 540px;
+      height: 83.61px;
+   }
+   background-color: yellow;
+   .third-leftside {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+   }
+   .third-rightside {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      img {
+         width: 32px;
+         height: 32px;
+         margin-right: 12px;
+      }
+   }
+
+   h1 {
+      color: rgb(0, 0, 0);
+      font-family: Archangelsk;
+      font-size: 62px;
+      font-weight: 400;
+      line-height: 63px;
+      letter-spacing: 0%;
+      text-align: left;
+      max-width: 560px;
+   }
+   h3 {
+      color: rgb(0, 0, 0);
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 34px;
+      letter-spacing: 0%;
+      text-align: left;
+      max-width: 624px;
+   }
+   p {
+      color: rgb(0, 0, 0);
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0%;
+      text-align: left;
+   }
+   .part-wrapper {
+      display: flex;
+      gap: 32px;
+   }
+   .more {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 50px 15px 50px;
+      color: rgb(248, 242, 0);
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 0%;
+      text-align: left;
+      background: rgb(0, 0, 0);
+      width: 194px;
+      height: 57.26px;
+   }
+   .container {
+      padding-top: 130px;
+      padding-bottom: 70px;
+   }
+}
+.section-four {
+   max-width: 1920px;
+   margin: 0 auto;
+   display: flex;
+   .four-leftside {
+      background: url(/src/assets/ps4disc.svg);
+      width: 944px;
+      height: 717px;
+   }
+   .four-rightside {
+      background-color: black;
+      h1 {
+         color: rgb(255, 255, 255);
+         font-family: Archangelsk;
+         font-size: 62px;
+         font-weight: 400;
+         line-height: 63px;
+         letter-spacing: 0%;
          text-align: left;
+         max-width: 624px;
+         padding-bottom: 25px;
+      }
+      h3 {
+         color: rgb(82, 190, 220);
+         font-family: Roboto;
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 28px;
+         letter-spacing: 0%;
+         text-align: left;
+         padding-bottom: 15px;
+      }
+      p {
+         color: rgb(255, 255, 255);
+         font-family: Roboto;
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 21px;
+         letter-spacing: 0%;
+         text-align: left;
+      }
+   }
+   .wrapper {
+      padding: 70px 320px 70px 32px;
+   }
+   .div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 70px;
+   }
+   .platforms {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      width: 319px;
+      height: 133.27px;
+   }
+}
+.footer {
+   max-width: 1920px;
+   margin: 0 auto;
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .footer-left {
+      padding: 13px 0px 13px 0px;
+   }
+   .footer-right {
+      display: flex;
+      gap: 32px;
+      a {
+         color: rgb(0, 0, 0);
+         font-family: Roboto;
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 21px;
+         letter-spacing: 0%;
+         text-align: left;
+      }
+   }
+   .footer-down {
+      background-color: black;
+      color: white;
+      text-align: center;
+      align-items: center;
+      p {
+         padding-top: 13px;
+         padding-bottom: 13px;
+         color: rgb(255, 255, 255);
+         font-family: Roboto;
+         font-size: 12px;
+         font-weight: 400;
+         line-height: 14px;
+         letter-spacing: 0%;
+         text-align: center;
       }
    }
 }

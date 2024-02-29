@@ -16,6 +16,14 @@ import share from './assets/share.svg';
 
 import consoles from './assets/consoles.svg';
 
+import platforms from './assets/platforms.svg';
+
+import monitor from './assets/monitor.svg';
+import collaboration from './assets/collaboration.svg';
+
+import cdlogo from './assets/logo.svg';
+import cdproject from './assets/CD_Projekt_logo 1.svg';
+
 const logoImage = document.getElementById('headerlogo');
 logoImage.src = headerLogo;
 
@@ -51,3 +59,18 @@ shareicon.src = share;
 
 const consolesicon = document.getElementById('consoles');
 consolesicon.src = consoles;
+
+const monitoricon = document.getElementById('monitor');
+monitoricon.src = monitor;
+
+const collabarationicon = document.getElementById('collaboration');
+collabarationicon.src = collaboration;
+
+const platformsicon = document.getElementById('platforms');
+platformsicon.src = platforms;
+
+const cdicon = document.getElementById('cdlogo');
+cdicon.src = cdlogo;
+
+const cdprojectsicon = document.getElementById('cdproject');
+cdprojectsicon.src = cdproject;
